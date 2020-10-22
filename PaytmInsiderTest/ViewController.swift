@@ -16,7 +16,6 @@ class ViewController: UIViewController {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
        }
-       
        @IBAction func buttonClicked() {
            if let navController = self.navigationController {
             navigator.makeListViewController(from: navController)
