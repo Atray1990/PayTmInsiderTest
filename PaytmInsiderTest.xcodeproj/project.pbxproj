@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC66428254165910057F454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66427254165910057F454 /* AppDelegate.swift */; };
+		3FC6642A254165910057F454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66429254165910057F454 /* SceneDelegate.swift */; };
+		3FC66432254165910057F454 /* PaytmInsiderTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66430254165910057F454 /* PaytmInsiderTest.xcdatamodeld */; };
+		3FC66434254165990057F454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC66433254165990057F454 /* Assets.xcassets */; };
+		3FC66437254165990057F454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC66435254165990057F454 /* LaunchScreen.storyboard */; };
+		3FC66442254165990057F454 /* PaytmInsiderTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66441254165990057F454 /* PaytmInsiderTestTests.swift */; };
+		3FC6644D254165990057F454 /* PaytmInsiderTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6644C254165990057F454 /* PaytmInsiderTestUITests.swift */; };
+		3FC6645B254165CA0057F454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6645A254165CA0057F454 /* ViewController.swift */; };
+		3FC66463254165E50057F454 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6645D254165E50057F454 /* ListViewController.swift */; };
+		3FC66464254165E50057F454 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6645E254165E50057F454 /* TableViewDataSource.swift */; };
+		3FC66465254165E50057F454 /* ListViewEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6645F254165E50057F454 /* ListViewEventHandler.swift */; };
+		3FC66466254165E50057F454 /* GetDataRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66460254165E50057F454 /* GetDataRequestHandler.swift */; };
+		3FC66467254165E50057F454 /* TestPackageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66461254165E50057F454 /* TestPackageModal.swift */; };
+		3FC66468254165E50057F454 /* ListNavigationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66462254165E50057F454 /* ListNavigationFactory.swift */; };
+		3FC6646A254165EE0057F454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC66469254165EE0057F454 /* Main.storyboard */; };
+		3FC6646F254165F90057F454 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6646C254165F90057F454 /* ImageLoader.swift */; };
+		3FC66471254165F90057F454 /* String+RemoveWhiteSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6646E254165F90057F454 /* String+RemoveWhiteSpace.swift */; };
+		3FC66474254166180057F454 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66473254166180057F454 /* PlayerTableViewCell.swift */; };
+		3FC66476254166310057F454 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66475254166310057F454 /* TestTableViewCell.swift */; };
+		3FC6647825416A740057F454 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6647725416A740057F454 /* CollectionViewDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC6643E254165990057F454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC6641C254165910057F454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC66423254165910057F454;
+			remoteInfo = PaytmInsiderTest;
+		};
+		3FC66449254165990057F454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC6641C254165910057F454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC66423254165910057F454;
+			remoteInfo = PaytmInsiderTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC66424254165910057F454 /* PaytmInsiderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaytmInsiderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC66427254165910057F454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC66429254165910057F454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FC66431254165910057F454 /* PaytmInsiderTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaytmInsiderTest.xcdatamodel; sourceTree = "<group>"; };
+		3FC66433254165990057F454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC66436254165990057F454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC66438254165990057F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC6643D254165990057F454 /* PaytmInsiderTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaytmInsiderTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC66441254165990057F454 /* PaytmInsiderTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaytmInsiderTestTests.swift; sourceTree = "<group>"; };
+		3FC66443254165990057F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC66448254165990057F454 /* PaytmInsiderTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaytmInsiderTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC6644C254165990057F454 /* PaytmInsiderTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaytmInsiderTestUITests.swift; sourceTree = "<group>"; };
+		3FC6644E254165990057F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC6645A254165CA0057F454 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC6645D254165E50057F454 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3FC6645E254165E50057F454 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		3FC6645F254165E50057F454 /* ListViewEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewEventHandler.swift; sourceTree = "<group>"; };
+		3FC66460254165E50057F454 /* GetDataRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDataRequestHandler.swift; sourceTree = "<group>"; };
+		3FC66461254165E50057F454 /* TestPackageModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPackageModal.swift; sourceTree = "<group>"; };
+		3FC66462254165E50057F454 /* ListNavigationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNavigationFactory.swift; sourceTree = "<group>"; };
+		3FC66469254165EE0057F454 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3FC6646C254165F90057F454 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		3FC6646E254165F90057F454 /* String+RemoveWhiteSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RemoveWhiteSpace.swift"; sourceTree = "<group>"; };
+		3FC66473254166180057F454 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		3FC66475254166310057F454 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		3FC6647725416A740057F454 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC66421254165910057F454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC6643A254165990057F454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC66445254165990057F454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC6641B254165910057F454 = {
+			isa = PBXGroup;
+			children = (
+				3FC66426254165910057F454 /* PaytmInsiderTest */,
+				3FC66440254165990057F454 /* PaytmInsiderTestTests */,
+				3FC6644B254165990057F454 /* PaytmInsiderTestUITests */,
+				3FC66425254165910057F454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC66425254165910057F454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC66424254165910057F454 /* PaytmInsiderTest.app */,
+				3FC6643D254165990057F454 /* PaytmInsiderTestTests.xctest */,
+				3FC66448254165990057F454 /* PaytmInsiderTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC66426254165910057F454 /* PaytmInsiderTest */ = {
+			isa = PBXGroup;
+			children = (
+				3FC66427254165910057F454 /* AppDelegate.swift */,
+				3FC66429254165910057F454 /* SceneDelegate.swift */,
+				3FC6645A254165CA0057F454 /* ViewController.swift */,
+				3FC66469254165EE0057F454 /* Main.storyboard */,
+				3FC66472254166180057F454 /* TableViewCell */,
+				3FC6646B254165F90057F454 /* HelperClass */,
+				3FC6645C254165E50057F454 /* ListViewController */,
+				3FC66433254165990057F454 /* Assets.xcassets */,
+				3FC66435254165990057F454 /* LaunchScreen.storyboard */,
+				3FC66438254165990057F454 /* Info.plist */,
+				3FC66430254165910057F454 /* PaytmInsiderTest.xcdatamodeld */,
+			);
+			path = PaytmInsiderTest;
+			sourceTree = "<group>";
+		};
+		3FC66440254165990057F454 /* PaytmInsiderTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC66441254165990057F454 /* PaytmInsiderTestTests.swift */,
+				3FC66443254165990057F454 /* Info.plist */,
+			);
+			path = PaytmInsiderTestTests;
+			sourceTree = "<group>";
+		};
+		3FC6644B254165990057F454 /* PaytmInsiderTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6644C254165990057F454 /* PaytmInsiderTestUITests.swift */,
+				3FC6644E254165990057F454 /* Info.plist */,
+			);
+			path = PaytmInsiderTestUITests;
+			sourceTree = "<group>";
+		};
+		3FC6645C254165E50057F454 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6645D254165E50057F454 /* ListViewController.swift */,
+				3FC6647725416A740057F454 /* CollectionViewDataSource.swift */,
+				3FC6645E254165E50057F454 /* TableViewDataSource.swift */,
+				3FC6645F254165E50057F454 /* ListViewEventHandler.swift */,
+				3FC66460254165E50057F454 /* GetDataRequestHandler.swift */,
+				3FC66461254165E50057F454 /* TestPackageModal.swift */,
+				3FC66462254165E50057F454 /* ListNavigationFactory.swift */,
+			);
+			name = ListViewController;
+			path = ../../TestProjectData/TestProjectData/ListViewController;
+			sourceTree = "<group>";
+		};
+		3FC6646B254165F90057F454 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6646C254165F90057F454 /* ImageLoader.swift */,
+				3FC6646E254165F90057F454 /* String+RemoveWhiteSpace.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		3FC66472254166180057F454 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3FC66473254166180057F454 /* PlayerTableViewCell.swift */,
+				3FC66475254166310057F454 /* TestTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC66423254165910057F454 /* PaytmInsiderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC66451254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTest" */;
+			buildPhases = (
+				3FC66420254165910057F454 /* Sources */,
+				3FC66421254165910057F454 /* Frameworks */,
+				3FC66422254165910057F454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaytmInsiderTest;
+			productName = PaytmInsiderTest;
+			productReference = 3FC66424254165910057F454 /* PaytmInsiderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC6643C254165990057F454 /* PaytmInsiderTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC66454254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestTests" */;
+			buildPhases = (
+				3FC66439254165990057F454 /* Sources */,
+				3FC6643A254165990057F454 /* Frameworks */,
+				3FC6643B254165990057F454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC6643F254165990057F454 /* PBXTargetDependency */,
+			);
+			name = PaytmInsiderTestTests;
+			productName = PaytmInsiderTestTests;
+			productReference = 3FC6643D254165990057F454 /* PaytmInsiderTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC66447254165990057F454 /* PaytmInsiderTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC66457254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestUITests" */;
+			buildPhases = (
+				3FC66444254165990057F454 /* Sources */,
+				3FC66445254165990057F454 /* Frameworks */,
+				3FC66446254165990057F454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC6644A254165990057F454 /* PBXTargetDependency */,
+			);
+			name = PaytmInsiderTestUITests;
+			productName = PaytmInsiderTestUITests;
+			productReference = 3FC66448254165990057F454 /* PaytmInsiderTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC6641C254165910057F454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "shashank atray";
+				TargetAttributes = {
+					3FC66423254165910057F454 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3FC6643C254165990057F454 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3FC66423254165910057F454;
+					};
+					3FC66447254165990057F454 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3FC66423254165910057F454;
+					};
+				};
+			};
+			buildConfigurationList = 3FC6641F254165910057F454 /* Build configuration list for PBXProject "PaytmInsiderTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC6641B254165910057F454;
+			productRefGroup = 3FC66425254165910057F454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC66423254165910057F454 /* PaytmInsiderTest */,
+				3FC6643C254165990057F454 /* PaytmInsiderTestTests */,
+				3FC66447254165990057F454 /* PaytmInsiderTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC66422254165910057F454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC6646A254165EE0057F454 /* Main.storyboard in Resources */,
+				3FC66437254165990057F454 /* LaunchScreen.storyboard in Resources */,
+				3FC66434254165990057F454 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC6643B254165990057F454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC66446254165990057F454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC66420254165910057F454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC66474254166180057F454 /* PlayerTableViewCell.swift in Sources */,
+				3FC66465254165E50057F454 /* ListViewEventHandler.swift in Sources */,
+				3FC66464254165E50057F454 /* TableViewDataSource.swift in Sources */,
+				3FC66468254165E50057F454 /* ListNavigationFactory.swift in Sources */,
+				3FC66428254165910057F454 /* AppDelegate.swift in Sources */,
+				3FC66432254165910057F454 /* PaytmInsiderTest.xcdatamodeld in Sources */,
+				3FC6646F254165F90057F454 /* ImageLoader.swift in Sources */,
+				3FC6645B254165CA0057F454 /* ViewController.swift in Sources */,
+				3FC66463254165E50057F454 /* ListViewController.swift in Sources */,
+				3FC66467254165E50057F454 /* TestPackageModal.swift in Sources */,
+				3FC6647825416A740057F454 /* CollectionViewDataSource.swift in Sources */,
+				3FC66471254165F90057F454 /* String+RemoveWhiteSpace.swift in Sources */,
+				3FC6642A254165910057F454 /* SceneDelegate.swift in Sources */,
+				3FC66466254165E50057F454 /* GetDataRequestHandler.swift in Sources */,
+				3FC66476254166310057F454 /* TestTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC66439254165990057F454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC66442254165990057F454 /* PaytmInsiderTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC66444254165990057F454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC6644D254165990057F454 /* PaytmInsiderTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC6643F254165990057F454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC66423254165910057F454 /* PaytmInsiderTest */;
+			targetProxy = 3FC6643E254165990057F454 /* PBXContainerItemProxy */;
+		};
+		3FC6644A254165990057F454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC66423254165910057F454 /* PaytmInsiderTest */;
+			targetProxy = 3FC66449254165990057F454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC66435254165990057F454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC66436254165990057F454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC6644F254165990057F454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC66450254165990057F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC66452254165990057F454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC66453254165990057F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC66455254165990057F454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaytmInsiderTest.app/PaytmInsiderTest";
+			};
+			name = Debug;
+		};
+		3FC66456254165990057F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaytmInsiderTest.app/PaytmInsiderTest";
+			};
+			name = Release;
+		};
+		3FC66458254165990057F454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaytmInsiderTest;
+			};
+			name = Debug;
+		};
+		3FC66459254165990057F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaytmInsiderTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shashank-atray.PaytmInsiderTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaytmInsiderTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC6641F254165910057F454 /* Build configuration list for PBXProject "PaytmInsiderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC6644F254165990057F454 /* Debug */,
+				3FC66450254165990057F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC66451254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC66452254165990057F454 /* Debug */,
+				3FC66453254165990057F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC66454254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC66455254165990057F454 /* Debug */,
+				3FC66456254165990057F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC66457254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC66458254165990057F454 /* Debug */,
+				3FC66459254165990057F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FC66430254165910057F454 /* PaytmInsiderTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FC66431254165910057F454 /* PaytmInsiderTest.xcdatamodel */,
+			);
+			currentVersion = 3FC66431254165910057F454 /* PaytmInsiderTest.xcdatamodel */;
+			path = PaytmInsiderTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FC6641C254165910057F454 /* Project object */;
+}
