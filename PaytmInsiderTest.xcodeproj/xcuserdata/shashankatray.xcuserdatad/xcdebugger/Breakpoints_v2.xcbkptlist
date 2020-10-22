@@ -32,7 +32,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
                   endingLineNumber = "30"
-                  offsetFromSymbolStart = "831">
+                  offsetFromSymbolStart = "799">
                </Location>
                <Location
                   uuid = "92EE8834-6850-40AC-B587-BEF96F951764 - 362b08eba2cdd552"
@@ -45,27 +45,11 @@
                   urlString = "file:///Users/shashankatray/Codes/TestProjectData/TestProjectData/ListViewController/ListViewEventHandler.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "35">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "144">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E84B68F9-E762-4CA5-962E-1C0DE272D841"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PaytmInsiderTest/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "buttonClicked()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

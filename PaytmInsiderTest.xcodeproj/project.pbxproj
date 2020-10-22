@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B9CCE896C462CF9012FC456 /* Pods_PaytmInsiderTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1098E6CEB6C98F49BF284DE1 /* Pods_PaytmInsiderTestTests.framework */; };
+		3F2123EC2541D1B2006A33B9 /* Int+Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2123EB2541D1B2006A33B9 /* Int+Second.swift */; };
 		3FC66428254165910057F454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66427254165910057F454 /* AppDelegate.swift */; };
 		3FC6642A254165910057F454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66429254165910057F454 /* SceneDelegate.swift */; };
 		3FC66432254165910057F454 /* PaytmInsiderTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66430254165910057F454 /* PaytmInsiderTest.xcdatamodeld */; };
@@ -27,6 +29,8 @@
 		3FC66474254166180057F454 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66473254166180057F454 /* PlayerTableViewCell.swift */; };
 		3FC66476254166310057F454 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66475254166310057F454 /* TestTableViewCell.swift */; };
 		3FC6647825416A740057F454 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6647725416A740057F454 /* CollectionViewDataSource.swift */; };
+		81852B81E9B27AD4B074C4D7 /* Pods_PaytmInsiderTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F58D50C206EA042957A93 /* Pods_PaytmInsiderTest.framework */; };
+		A886D1348AB15EC79EA30AAF /* Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F00FDC49D53D129B78A3627 /* Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1098E6CEB6C98F49BF284DE1 /* Pods_PaytmInsiderTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaytmInsiderTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37221F8EB45A60BC2051FEE8 /* Pods-PaytmInsiderTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTestTests.release.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTestTests/Pods-PaytmInsiderTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F2123EB2541D1B2006A33B9 /* Int+Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Second.swift"; sourceTree = "<group>"; };
 		3FC66424254165910057F454 /* PaytmInsiderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaytmInsiderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC66427254165910057F454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC66429254165910057F454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +80,13 @@
 		3FC66473254166180057F454 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
 		3FC66475254166310057F454 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		3FC6647725416A740057F454 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		4BA21FD7C109D92CAD17E0E4 /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTest-PaytmInsiderTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTest-PaytmInsiderTestUITests/Pods-PaytmInsiderTest-PaytmInsiderTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F00FDC49D53D129B78A3627 /* Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		737828A30D56EBE6F9A7FEF3 /* Pods-PaytmInsiderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTest.release.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTest/Pods-PaytmInsiderTest.release.xcconfig"; sourceTree = "<group>"; };
+		7C4395EBC79819F2EABCECBB /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTest-PaytmInsiderTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTest-PaytmInsiderTestUITests/Pods-PaytmInsiderTest-PaytmInsiderTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A97F58D50C206EA042957A93 /* Pods_PaytmInsiderTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaytmInsiderTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E10A3D115FF23EC5ABF7E3 /* Pods-PaytmInsiderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTest.debug.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTest/Pods-PaytmInsiderTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DE49A7F16592478D478F923A /* Pods-PaytmInsiderTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytmInsiderTestTests.debug.xcconfig"; path = "Target Support Files/Pods-PaytmInsiderTestTests/Pods-PaytmInsiderTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81852B81E9B27AD4B074C4D7 /* Pods_PaytmInsiderTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9CCE896C462CF9012FC456 /* Pods_PaytmInsiderTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A886D1348AB15EC79EA30AAF /* Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +124,8 @@
 				3FC66440254165990057F454 /* PaytmInsiderTestTests */,
 				3FC6644B254165990057F454 /* PaytmInsiderTestUITests */,
 				3FC66425254165910057F454 /* Products */,
+				DE859B63E1E34E16A8FF3F3A /* Pods */,
+				A16DE6293D83CC66251B2B0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,7 +147,7 @@
 				3FC6645A254165CA0057F454 /* ViewController.swift */,
 				3FC66469254165EE0057F454 /* Main.storyboard */,
 				3FC66472254166180057F454 /* TableViewCell */,
-				3FC6646B254165F90057F454 /* HelperClass */,
+				3FC6646B254165F90057F454 /* HelperClass+Extention */,
 				3FC6645C254165E50057F454 /* ListViewController */,
 				3FC66433254165990057F454 /* Assets.xcassets */,
 				3FC66435254165990057F454 /* LaunchScreen.storyboard */,
@@ -171,13 +190,14 @@
 			path = ../../TestProjectData/TestProjectData/ListViewController;
 			sourceTree = "<group>";
 		};
-		3FC6646B254165F90057F454 /* HelperClass */ = {
+		3FC6646B254165F90057F454 /* HelperClass+Extention */ = {
 			isa = PBXGroup;
 			children = (
 				3FC6646C254165F90057F454 /* ImageLoader.swift */,
 				3FC6646E254165F90057F454 /* String+RemoveWhiteSpace.swift */,
+				3F2123EB2541D1B2006A33B9 /* Int+Second.swift */,
 			);
-			path = HelperClass;
+			path = "HelperClass+Extention";
 			sourceTree = "<group>";
 		};
 		3FC66472254166180057F454 /* TableViewCell */ = {
@@ -189,6 +209,29 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		A16DE6293D83CC66251B2B0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97F58D50C206EA042957A93 /* Pods_PaytmInsiderTest.framework */,
+				5F00FDC49D53D129B78A3627 /* Pods_PaytmInsiderTest_PaytmInsiderTestUITests.framework */,
+				1098E6CEB6C98F49BF284DE1 /* Pods_PaytmInsiderTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE859B63E1E34E16A8FF3F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3E10A3D115FF23EC5ABF7E3 /* Pods-PaytmInsiderTest.debug.xcconfig */,
+				737828A30D56EBE6F9A7FEF3 /* Pods-PaytmInsiderTest.release.xcconfig */,
+				4BA21FD7C109D92CAD17E0E4 /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.debug.xcconfig */,
+				7C4395EBC79819F2EABCECBB /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.release.xcconfig */,
+				DE49A7F16592478D478F923A /* Pods-PaytmInsiderTestTests.debug.xcconfig */,
+				37221F8EB45A60BC2051FEE8 /* Pods-PaytmInsiderTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FC66451254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTest" */;
 			buildPhases = (
+				6476D3F0F2F03F89514B55B4 /* [CP] Check Pods Manifest.lock */,
 				3FC66420254165910057F454 /* Sources */,
 				3FC66421254165910057F454 /* Frameworks */,
 				3FC66422254165910057F454 /* Resources */,
@@ -213,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FC66454254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestTests" */;
 			buildPhases = (
+				20F27CE3F42D77486DB814A5 /* [CP] Check Pods Manifest.lock */,
 				3FC66439254165990057F454 /* Sources */,
 				3FC6643A254165990057F454 /* Frameworks */,
 				3FC6643B254165990057F454 /* Resources */,
@@ -231,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FC66457254165990057F454 /* Build configuration list for PBXNativeTarget "PaytmInsiderTestUITests" */;
 			buildPhases = (
+				25DBDE21E265D69167B553D5 /* [CP] Check Pods Manifest.lock */,
 				3FC66444254165990057F454 /* Sources */,
 				3FC66445254165990057F454 /* Frameworks */,
 				3FC66446254165990057F454 /* Resources */,
@@ -315,6 +361,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20F27CE3F42D77486DB814A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaytmInsiderTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25DBDE21E265D69167B553D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaytmInsiderTest-PaytmInsiderTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6476D3F0F2F03F89514B55B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaytmInsiderTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FC66420254165910057F454 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -333,6 +448,7 @@
 				3FC6647825416A740057F454 /* CollectionViewDataSource.swift in Sources */,
 				3FC66471254165F90057F454 /* String+RemoveWhiteSpace.swift in Sources */,
 				3FC6642A254165910057F454 /* SceneDelegate.swift in Sources */,
+				3F2123EC2541D1B2006A33B9 /* Int+Second.swift in Sources */,
 				3FC66466254165E50057F454 /* GetDataRequestHandler.swift in Sources */,
 				3FC66476254166310057F454 /* TestTableViewCell.swift in Sources */,
 			);
@@ -497,6 +613,7 @@
 		};
 		3FC66452254165990057F454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E10A3D115FF23EC5ABF7E3 /* Pods-PaytmInsiderTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +631,7 @@
 		};
 		3FC66453254165990057F454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737828A30D56EBE6F9A7FEF3 /* Pods-PaytmInsiderTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +649,7 @@
 		};
 		3FC66455254165990057F454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE49A7F16592478D478F923A /* Pods-PaytmInsiderTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +671,7 @@
 		};
 		3FC66456254165990057F454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37221F8EB45A60BC2051FEE8 /* Pods-PaytmInsiderTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +693,7 @@
 		};
 		3FC66458254165990057F454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA21FD7C109D92CAD17E0E4 /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +713,7 @@
 		};
 		3FC66459254165990057F454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4395EBC79819F2EABCECBB /* Pods-PaytmInsiderTest-PaytmInsiderTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
