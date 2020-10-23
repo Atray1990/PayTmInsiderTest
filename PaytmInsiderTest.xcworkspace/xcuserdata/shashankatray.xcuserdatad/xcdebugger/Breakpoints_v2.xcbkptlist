@@ -30,8 +30,8 @@
             filePath = "PaytmInsiderTest/artistDetail/ArtistDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "playVideoSnippet()"
             landmarkType = "7">
          </BreakpointContent>

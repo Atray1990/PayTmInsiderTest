@@ -16,6 +16,7 @@
 		3F5595252542A3CC0070E30A /* TestPackageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55951F2542A3CB0070E30A /* TestPackageModal.swift */; };
 		3F5595262542A3CC0070E30A /* ListNavigationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5595202542A3CB0070E30A /* ListNavigationFactory.swift */; };
 		3F5595292542A5360070E30A /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5595282542A5360070E30A /* ArtistDetailViewController.swift */; };
+		3F55952B2542B9F90070E30A /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55952A2542B9F90070E30A /* DateFormatter.swift */; };
 		3FC66428254165910057F454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66427254165910057F454 /* AppDelegate.swift */; };
 		3FC6642A254165910057F454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66429254165910057F454 /* SceneDelegate.swift */; };
 		3FC66432254165910057F454 /* PaytmInsiderTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC66430254165910057F454 /* PaytmInsiderTest.xcdatamodeld */; };
@@ -61,6 +62,7 @@
 		3F55951F2542A3CB0070E30A /* TestPackageModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPackageModal.swift; sourceTree = "<group>"; };
 		3F5595202542A3CB0070E30A /* ListNavigationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNavigationFactory.swift; sourceTree = "<group>"; };
 		3F5595282542A5360070E30A /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		3F55952A2542B9F90070E30A /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		3FC66424254165910057F454 /* PaytmInsiderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaytmInsiderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC66427254165910057F454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC66429254165910057F454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				3F5595282542A5360070E30A /* ArtistDetailViewController.swift */,
+				3F55952A2542B9F90070E30A /* DateFormatter.swift */,
 			);
 			path = artistDetail;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				3FC6646F254165F90057F454 /* ImageLoader.swift in Sources */,
 				3FC6645B254165CA0057F454 /* ViewController.swift in Sources */,
 				3F5595212542A3CC0070E30A /* ListViewController.swift in Sources */,
+				3F55952B2542B9F90070E30A /* DateFormatter.swift in Sources */,
 				3F5595222542A3CC0070E30A /* CollectionViewDataSource.swift in Sources */,
 				3F5595292542A5360070E30A /* ArtistDetailViewController.swift in Sources */,
 				3FC66471254165F90057F454 /* String+RemoveWhiteSpace.swift in Sources */,

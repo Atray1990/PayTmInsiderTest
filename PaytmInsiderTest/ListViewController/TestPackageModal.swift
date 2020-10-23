@@ -24,7 +24,7 @@ public struct Albums : Decodable {
     let kind: String
     let artistId: Int?
     let trackViewUrl: String?
-    let artistName: String?
+    let artistName: String
     let artistViewUrl: String?
     let artworkUrl100: String
     let artworkUrl30: String?
@@ -32,14 +32,14 @@ public struct Albums : Decodable {
     let collectionCensoredName: String?
     let collectionName: String?
     let collectionId: Int?
-    let collectionPrice: Double?
+    let collectionPrice: Double
     let collectionViewUrl: String?
     let contentAdvisoryRating: String?
     let country: String?
     let currency: String?
     let previewUrl: String?
     let primaryGenreName: String
-    let releaseDate: String?
+    let releaseDate: String
     let trackCensoredName: String?
     let trackPrice: Double
     let trackName: String
