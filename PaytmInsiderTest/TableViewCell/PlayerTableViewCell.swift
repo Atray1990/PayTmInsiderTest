@@ -19,6 +19,7 @@ class collectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblAlbumDuration: UILabel!
     @IBOutlet weak var lblSongPrice: UILabel!
     @IBOutlet weak var viewContainer: UIView!
+    @IBOutlet weak var lblKind: UILabel!
         
     var imageLoader = ImageLoader()
     
@@ -50,6 +51,7 @@ class collectionViewCell: UICollectionViewCell {
         lblSongPrice.text = "Buy for : $\(album.trackPrice)"
         let time = String(format: "%.2f", album.trackTimeMillis.msToSeconds)
         lblAlbumDuration.text = "Duration: \(time) mins"
+        lblKind.text = album.kind
         
         imageLoader.obtainImageWithPath(imagePath: album.artworkUrl100) { (image) in
             self.ivAlbumImage.image = image

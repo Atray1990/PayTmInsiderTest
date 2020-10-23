@@ -7,32 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "84511FD2-AE51-43F5-B99B-158C1685BF99"
+            uuid = "5ABED8F4-A696-4F26-896C-D567A77B7604"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PaytmInsiderTest/TableViewCell/PlayerTableViewCell.swift"
+            filePath = "PaytmInsiderTest/ListViewController/ListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "cellSetup()"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "524046B7-9563-486F-98FA-90E01321DF0F"
+            uuid = "06AAD6BF-D9EC-451E-8C23-D8E7B6E75997"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PaytmInsiderTest/TableViewCell/PlayerTableViewCell.swift"
+            filePath = "PaytmInsiderTest/artistDetail/ArtistDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "setupWithPhoto(album:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "playVideoSnippet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B21033E-3BB0-4F48-A6AC-99B6A2528307"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaytmInsiderTest/ListViewController/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "moveToArtistScreenScreen(testData:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
