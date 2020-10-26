@@ -26,7 +26,7 @@ extension ListNavigatable {
         let requestHandler = GetDataRequestHandler()
         let navigator = ListNavigatorRouting()
         let eventHandler = ListViewEventHandler.init(viewController: viewController, requestHandler: requestHandler, navigator: navigator)
-        eventHandler.fetchChatdata(searchText: searchString)
+        viewController.searchText = searchString
         viewController.eventHandler = eventHandler
         navController.pushViewController(viewController, animated: true)
     }

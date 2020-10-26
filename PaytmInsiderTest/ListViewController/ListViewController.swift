@@ -24,7 +24,10 @@ class ListViewController: UIViewController {
         super.viewDidLoad()
         setUpViews()
         collectionViewSetUp(count: 2)
-        eventHandler.fetchChatdata(searchText: "adele")
+        if let search = searchText {
+             eventHandler.fetchChatdata(searchText: search)
+        }
+       
     }
     
     func setUpViews() {

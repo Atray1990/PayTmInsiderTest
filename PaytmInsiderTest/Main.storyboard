@@ -196,15 +196,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alK-Pg-Tnz">
-                                <rect key="frame" x="0.0" y="88" width="375" height="90"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="QB0-LI-MvM"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F8-ef-Tne">
-                                <rect key="frame" x="0.0" y="695" width="375" height="83"/>
+                                <rect key="frame" x="0.0" y="295" width="375" height="83"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="TuT-sK-ncO"/>
@@ -215,7 +208,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Artist to search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uf7-ni-MtV">
-                                <rect key="frame" x="9" y="620" width="350" height="45"/>
+                                <rect key="frame" x="9" y="220" width="350" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ReD-ro-Ge0"/>
                                 </constraints>
@@ -227,13 +220,10 @@
                         <constraints>
                             <constraint firstItem="7cq-NB-jgU" firstAttribute="trailing" secondItem="uf7-ni-MtV" secondAttribute="trailing" constant="16" id="1RE-2p-31u"/>
                             <constraint firstItem="2F8-ef-Tne" firstAttribute="top" secondItem="uf7-ni-MtV" secondAttribute="bottom" constant="30" id="AWz-DH-fe7"/>
-                            <constraint firstItem="alK-Pg-Tnz" firstAttribute="trailing" secondItem="7cq-NB-jgU" secondAttribute="trailing" id="HpC-98-iyl"/>
                             <constraint firstItem="uf7-ni-MtV" firstAttribute="leading" secondItem="7cq-NB-jgU" secondAttribute="leading" constant="9" id="TFQ-c5-xIo"/>
-                            <constraint firstItem="2F8-ef-Tne" firstAttribute="bottom" secondItem="7cq-NB-jgU" secondAttribute="bottom" id="UyY-Tc-m72"/>
+                            <constraint firstItem="2F8-ef-Tne" firstAttribute="bottom" secondItem="7cq-NB-jgU" secondAttribute="bottom" constant="-400" id="UyY-Tc-m72"/>
                             <constraint firstItem="2F8-ef-Tne" firstAttribute="leading" secondItem="7cq-NB-jgU" secondAttribute="leading" id="h3u-ID-5Gn"/>
-                            <constraint firstItem="alK-Pg-Tnz" firstAttribute="leading" secondItem="7cq-NB-jgU" secondAttribute="leading" id="p59-tJ-qUN"/>
                             <constraint firstItem="2F8-ef-Tne" firstAttribute="trailing" secondItem="7cq-NB-jgU" secondAttribute="trailing" id="pHj-4G-1HW"/>
-                            <constraint firstItem="alK-Pg-Tnz" firstAttribute="top" secondItem="7cq-NB-jgU" secondAttribute="top" id="wfu-K9-qTq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7cq-NB-jgU"/>
                     </view>
